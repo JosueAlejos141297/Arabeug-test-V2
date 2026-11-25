@@ -38,7 +38,7 @@ export const BUSINESS_INFO = {
     mapsUrl:
       'https://www.google.com/maps/search/?api=1&query=Boulevard+Capitan+Carlos+Leon+Gonzalez+Local+E+13+PB+Ambulatorio+Nacional+Penon+de+los+Banos+15520+Ciudad+de+Mexico',
   },
-  logoPath: '/assets/aistudio/WhatsApp_Image_2026-11-21_at_11.26.43_AM_2cd63a0e.jpeg',
+  logoPath: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-11-21_at_11.26.43_AM_2cd63a0e.jpeg`,
 } as const;
 
 export const CURRENCIES: CurrencyItem[] = [

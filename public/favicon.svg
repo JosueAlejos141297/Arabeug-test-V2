@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Centro Cambiario Arabeug">
+  <defs>
+    <radialGradient id="ccaNavBg" cx="50%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#1E62BD"/>
+      <stop offset="58%" stop-color="#06225C"/>
+      <stop offset="100%" stop-color="#031338"/>
+    </radialGradient>
+    <linearGradient id="ccaGoldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A67E16"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="32" cy="32" rx="30" ry="24" fill="url(#ccaNavBg)" stroke="url(#ccaGoldRim)" stroke-width="2.5"/>
+  <g fill="#BFA87A" opacity="0.42">
+    <path d="M13,20 Q18,17 22,21 T20,30 Q17,34 19,41 T14,46 Q11,42 12,35 T9,25 Z"/>
+    <path d="M28,17 Q35,15 43,19 T52,25 Q54,31 48,35 T42,42 Q39,37 36,35 T30,43 Q27,39 28,31 T26,21 Z"/>
+  </g>
+  <text
+    x="32"
+    y="39"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700"
+    font-size="21"
+    fill="#EFE1B5"
+    stroke="#04153B"
+    stroke-width="0.8"
+    letter-spacing="0.5"
+  >CCA</text>
+</svg>
