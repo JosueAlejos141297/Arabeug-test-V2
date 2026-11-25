@@ -19,11 +19,7 @@ export const BUSINESS_INFO = {
   emails: [
     {
       address: 'ccarabeug@gmail.com',
-      label: 'Atención principal y consultas',
-    },
-    {
-      address: 'cc_arabeug@hotmail.com',
-      label: 'Correo institucional alternativo',
+      label: 'Atención oficial y consultas',
     },
   ],
   address: {

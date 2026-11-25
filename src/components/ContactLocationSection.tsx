@@ -96,7 +96,7 @@ export function ContactLocationSection() {
             Ubicación legal en el AICM y canales de atención
           </h2>
           <p className="mt-4 text-base text-slate-600 leading-relaxed">
-            Verifique nuestros datos oficiales de domicilio, teléfono y correos electrónicos institucionales de{' '}
+            Verifique nuestros datos oficiales de domicilio, teléfono y correo electrónico institucional de{' '}
             <strong className="font-semibold text-navy-950">{BUSINESS_INFO.legalName}</strong>.
           </p>
         </div>
@@ -214,7 +214,7 @@ export function ContactLocationSection() {
               <div className="pt-6 border-t border-slate-200">
                 <div className="flex items-center gap-2 text-xs font-semibold text-navy-900 mb-3">
                   <Mail className="w-4 h-4 text-gold-700 shrink-0" aria-hidden="true" />
-                  <span>Correos electrónicos oficiales</span>
+                  <span>Correo electrónico oficial</span>
                 </div>
                 <ul className="space-y-3">
                   {BUSINESS_INFO.emails.map((item) => (

@@ -141,19 +141,12 @@ export function LegalSection({ activeTab, onTabChange }: LegalSectionProps) {
                 caso de que esté desactualizada, sea inexacta o incompleta (Rectificación), solicitar su eliminación
                 de nuestros registros cuando considere que no está siendo utilizada adecuadamente (Cancelación), así
                 como oponerse al uso de sus datos personales para fines específicos (Oposición). Para ejercer
-                cualquiera de los derechos ARCO, puede enviar su solicitud directamente a los correos electrónicos{' '}
+                cualquiera de los derechos ARCO, puede enviar su solicitud directamente al correo electrónico{' '}
                 <a
                   href={`mailto:${BUSINESS_INFO.emails[0].address}`}
                   className="text-navy-900 font-semibold underline hover:text-gold-700"
                 >
                   {BUSINESS_INFO.emails[0].address}
-                </a>{' '}
-                o{' '}
-                <a
-                  href={`mailto:${BUSINESS_INFO.emails[1].address}`}
-                  className="text-navy-900 font-semibold underline hover:text-gold-700"
-                >
-                  {BUSINESS_INFO.emails[1].address}
                 </a>
                 , o comunicarse al teléfono{' '}
                 <a
@@ -255,19 +248,12 @@ export function LegalSection({ activeTab, onTabChange }: LegalSectionProps) {
                 >
                   {BUSINESS_INFO.phoneDisplay}
                 </a>{' '}
-                o en los correos electrónicos oficiales{' '}
+                o en el correo electrónico oficial{' '}
                 <a
                   href={`mailto:${BUSINESS_INFO.emails[0].address}`}
                   className="text-navy-900 font-semibold underline hover:text-gold-700"
                 >
                   {BUSINESS_INFO.emails[0].address}
-                </a>{' '}
-                y{' '}
-                <a
-                  href={`mailto:${BUSINESS_INFO.emails[1].address}`}
-                  className="text-navy-900 font-semibold underline hover:text-gold-700"
-                >
-                  {BUSINESS_INFO.emails[1].address}
                 </a>
                 .
               </p>
@@ -317,10 +303,9 @@ export function LegalSection({ activeTab, onTabChange }: LegalSectionProps) {
                 </dd>
               </div>
               <div className="py-3.5 grid grid-cols-1 sm:grid-cols-3 gap-2">
-                <dt className="font-semibold text-slate-600">Correos electrónicos</dt>
-                <dd className="sm:col-span-2 text-slate-900 space-y-1">
-                  <div>{BUSINESS_INFO.emails[0].address}</div>
-                  <div>{BUSINESS_INFO.emails[1].address}</div>
+                <dt className="font-semibold text-slate-600">Correo electrónico</dt>
+                <dd className="sm:col-span-2 text-slate-900">
+                  {BUSINESS_INFO.emails[0].address}
                 </dd>
               </div>
               <div className="py-3.5 grid grid-cols-1 sm:grid-cols-3 gap-2">
