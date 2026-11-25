@@ -1,0 +1,8 @@
+{
+  "name": "Centro Cambiario Arabeug S.A. de C.V.",
+  "description": "Sitio web oficial de Centro Cambiario Arabeug S.A. de C.V. Compra y venta de divisas en el Aeropuerto Internacional de la Ciudad de México (AICM), Local E 13 PB Ambulatorio Nacional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

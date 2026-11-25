@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #04153B;
+  --color-navy-900: #06225C;
+  --color-navy-800: #0B357A;
+  --color-navy-700: #134696;
+  --color-gold-100: #EFE1B5;
+  --color-gold-300: #ECD48B;
+  --color-gold-400: #E5C158;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B59224;
+  --color-gold-700: #8F7016;
+
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.gold-hairline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.75) 50%, transparent 100%);
+}
+
+.hero-navy-surface {
+  background: radial-gradient(ellipse 80% 70% at 68% 20%, #0E3E8C 0%, #06225C 52%, #04153B 100%);
+}
